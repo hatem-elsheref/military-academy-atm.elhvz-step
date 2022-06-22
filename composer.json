@@ -1,0 +1,20 @@
+{
+    "name": "elsheref/tansik",
+    "type": "project",
+    "description" : "build app that prepare tansik excel file of atm-elhvz step main and relatives",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elsheref\\Tansik\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hatem"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master"
+    }
+}
